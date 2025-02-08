@@ -1,0 +1,71 @@
+:root {
+  --color1: #ff6a00; /* لون الدائرة الأولى */
+  --color2: #ff7f00; /* لون الدائرة الثانية */
+  --color3: #ff9300; /* لون الدائرة الثالثة */
+  --color4: #ff7900; /* لون الدائرة الرابعة */
+}
+
+.unique-vision-container {
+  position: relative;
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px auto;
+}
+
+.unique-circle {
+  width: 250px; /* زيادة حجم الدوائر */
+  height: 250px; /* زيادة حجم الدوائر */
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  font-size: 16px; /* حجم الخط */
+  font-weight: bold;
+  color: white;
+  opacity: 0.9;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, opacity 0.3s ease;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.unique-circle:hover {
+  transform: translate(-50%, -50%) scale(1.1);
+  box-shadow: 4px 4px 15px rgba(0, 0, 0, 0.3);
+  opacity: 1;
+  z-index: 10;
+}
+
+.unique-mission {
+  background-color: var(--color1); /* لون الدائرة الأولى */
+  transform: translate(-50%, -50%) rotate(0deg) translateX(150px) rotate(0deg); /* زيادة المسافة */
+}
+
+.unique-vision {
+  background-color: var(--color2); /* لون الدائرة الثانية */
+  transform: translate(-50%, -50%) rotate(90deg) translateX(150px) rotate(-90deg); /* زيادة المسافة */
+}
+
+.unique-goals {
+  background-color: var(--color3); /* لون الدائرة الثالثة */
+  transform: translate(-50%, -50%) rotate(180deg) translateX(150px) rotate(-180deg); /* زيادة المسافة */
+}
+
+.unique-values {
+  background-color: var(--color4);
+  transform: translate(-50%, -50%) rotate(270deg) translateX(150px) rotate(-270deg); /* زيادة المسافة */
+}
+
+.ulat {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}

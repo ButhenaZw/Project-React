@@ -1,0 +1,85 @@
+
+.dropbtn {
+  background-color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s, transform 0.3s;
+}
+
+.dropbtn:hover {
+  background-color: #000000; 
+  transform: scale(1.05);
+}
+
+.dropbtn svg {
+  font-size: 22px;
+  color: #ff7900;
+}
+
+.dropbtn svg:hover{
+  font-size: 22px;
+  color: #ffffff;
+}
+
+.dropdown-content {
+  position: absolute;
+  background-color: #ffffff;
+  min-width: 140px;
+  border-radius: 12px;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+  top: 50px;
+  right: 0;
+  padding: 8px 0;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+
+.dropdown-content.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.dropdown-content .link-dropdown {
+  color: #333;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  border-radius: 12px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.dropdown-content .link-dropdown:hover {
+  background-color: #ff7900;
+  color: white;
+}
+
+.dropdown:hover .dropdown-content,
+.dropdown-content:hover {
+  display: block;
+  opacity: 1;
+  visibility: visible;
+}
+body.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.navbar-dark {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.navbar-light {
+  background-color: white;
+  color: black;
+}

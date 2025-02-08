@@ -1,0 +1,25 @@
+.headers{
+    width: 90%;
+    background-color: #ff7900;
+    height: 3px;
+    position: relative;
+    top: 10px;
+  }
+  .headers1{
+    width: 50%;
+    background-color: #f9b200;
+    height: 3px;
+  }
+  .header-text:hover{
+    color: #ff7900;
+    transform: scale(1.02);
+    transition: 0.3s ease-in-out;
+  }
+
+.img-staff {
+    transition: transform 0.3s ease;
+  }
+
+  .img-staff:hover {
+    transform: scale(1.1);
+  }

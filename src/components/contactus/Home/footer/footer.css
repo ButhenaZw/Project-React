@@ -1,0 +1,29 @@
+.footer-contact{
+    background-color: #311f1ae7;
+    height:490px;
+position: relative;
+}
+.icon-contact{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    position: relative;
+    top: 10px;
+}
+
+.icon-contact-iii:hover{
+background-color: #f30c6d;
+border-radius: 15px;
+}
+
+.icon-contact-fff:hover{
+    background-color: #0772e2;
+border-radius: 15px;
+}
+.icon-contact-ggg:hover{
+    background-color: black;
+border-radius: 15px;
+}.icon-contact-ttt:hover{
+    background-color:#1c96e8 ;
+border-radius: 15px;
+}

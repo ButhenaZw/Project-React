@@ -1,0 +1,60 @@
+{
+  "name": "my-project",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^6.4.2",
+    "@mui/material": "^6.4.2",
+    "@mui/system": "^6.4.2",
+    "@sentry/react": "^8.54.0",
+    "bootstrap": "^5.3.3",
+    "bootstrap-icons": "^1.11.3",
+    "cra-template": "1.2.0",
+    "formik": "^2.4.6",
+    "framer-motion": "^12.0.6",
+    "i18next": "^24.2.2",
+    "icons": "^1.0.0",
+    "mdb-react-ui-kit": "^9.0.0",
+    "module": "^1.2.5",
+    "node": "^18.20.6",
+    "path-browserify": "^1.0.1",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-i18next": "^15.4.0",
+    "react-icons": "^5.4.0",
+    "react-router-dom": "^6.28.2",
+    "react-scripts": "5.0.1",
+    "react-toastify": "^11.0.3",
+    "react-window": "^1.8.11",
+    "recharts": "^2.15.1",
+    "use-dark-mode": "^2.3.1",
+    "web-vitals": "^4.2.4",
+    "yup": "^1.6.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,74 @@
+.image-contact{
+    background-image:url("https://i.imgur.com/uTPlCIa.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 490px;
+}
+.header-contactuss{
+    font-size: 60px;
+    position: relative;
+    top: 60px;
+    left:620px;
+    color:#f95c2d;
+    max-width: 350px;
+
+
+}
+.par-contactuss{
+    position: relative;
+    top: 60px;
+    font-weight: 500;
+    left:620px;
+    font-size: 17px;
+    max-width: 350px;
+    
+}
+.contact-icon{
+    width:90px;
+}
+.call-co{
+    width:190px
+}
+.h2-contactus{
+    color:#595859;
+}
+
+.finall{
+    position: relative;
+    top: 300px;
+    height:450px;
+    display: flex;
+    gap:300px;
+    background-color: #f95d2de7;
+    
+
+}
+.map-contactt{
+    /* width: 1000px; */
+    position: relative;
+    top:30px;
+
+}
+
+
+.input-contact {
+ width: 300px; 
+ height: 30px;
+ border-radius: 5px;
+ border: none;
+}
+.input-button{
+    width: 300px; 
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+
+}
+.input-button:hover {
+    transform:scale(1.02);
+    transition: ease-in-out;
+    
+}
+
+

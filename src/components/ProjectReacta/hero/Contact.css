@@ -1,0 +1,46 @@
+.bodya {
+  margin: 0;
+  background-color: #ffffff;
+  color: #575757;
+  box-sizing: border-box;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.dark-mode {
+  background-color: #1a1a1a;
+  color: white;
+}
+
+.dark-mode .hero-section {
+  background-color: #222; 
+}
+
+.dark-mode .hero-title,
+.dark-mode .hero-text {
+  color: white;
+}
+
+.dark-mode .cta-button {
+  background-color: #ff9900;
+}
+
+.dark-mode .cta-button:hover {
+  background-color: #ffb347;
+}
+
+.hero-section {
+  width: 100%;
+  min-height: 80vh;
+  display: flex;
+  gap: 50px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 20px;
+  background-color: white;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.dark-mode .hero-section {
+  background-color: #1a1a1a !important; 
+}
